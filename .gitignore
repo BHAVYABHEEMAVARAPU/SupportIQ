@@ -1,0 +1,26 @@
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node.js and Vite
+frontend/node_modules/
+frontend/dist/
+node_modules/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
